@@ -1,0 +1,122 @@
+# profile.html
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="top-bar">
+
+    <div>
+      <h2>Mon Profil</h2>
+      <p>Informations utilisateur</p>
+    </div>
+
+    <div class="notif">
+      👤
+    </div>
+
+  </header>
+
+
+  <!-- PHOTO PROFIL -->
+  <section style="text-align:center; margin-bottom:30px;">
+
+    <img 
+      src="images/user-avatar.jpg" 
+      alt="User Avatar"
+      style="
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        object-fit:cover;
+        box-shadow:0 5px 20px rgba(0,0,0,0.1);
+      "
+    >
+
+    <h2 style="margin-top:15px;">Sami</h2>
+
+    <p style="color:gray;">ID : BCC72891</p>
+
+  </section>
+
+
+  <!-- INFORMATIONS -->
+  <section class="activities">
+
+    <div class="activity-item">
+      📱 Téléphone : +225 07 00 00 00 00
+    </div>
+
+    <div class="activity-item">
+      💳 Solde : 125 000 BCC
+    </div>
+
+    <div class="activity-item">
+      💰 Estimation : 62 000 FCFA
+    </div>
+
+  </section>
+
+
+  <!-- PARAMÈTRES -->
+  <section class="quick-actions">
+
+    <div class="action-btn">
+      ⚙
+      <p>Paramètres</p>
+    </div>
+
+    <div class="action-btn">
+      🔒
+      <p>Sécurité</p>
+    </div>
+
+    <div class="action-btn">
+      ❓
+      <p>Aide</p>
+    </div>
+
+    <div class="action-btn">
+      ↪
+      <p>Déconnexion</p>
+    </div>
+
+  </section>
+
+
+  <!-- NAVIGATION BASSE -->
+  <nav class="bottom-nav">
+
+    <a href="home.html" class="nav-item">
+      <span>⌂</span>
+      <p>Accueil</p>
+    </a>
+
+
+    <a href="earn.html" class="bcc-center-btn">
+      <img src="images/bcc-logo.png" alt="BCC Logo">
+    </a>
+
+
+    <a href="profile.html" class="nav-item active">
+      <span>👤</span>
+      <p>Profil</p>
+    </a>
+
+  </nav>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+```
